@@ -11,4 +11,5 @@ forever(function () {
     music.setVolume(100)
     music.playSoundEffect(sounds.communicationBravo)
     music.playSoundEffect(sounds.animalsCatPurr)
+    pauseUntil(() => true)
 })
