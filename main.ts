@@ -8,6 +8,7 @@ sensors.touch1.onEvent(ButtonEvent.Pressed, function () {
 })
 brick.setStatusLight(StatusLight.Orange)
 forever(function () {
+    music.ringTone(262)
     music.setVolume(100)
     music.playSoundEffect(sounds.communicationBravo)
     music.playSoundEffect(sounds.animalsCatPurr)
