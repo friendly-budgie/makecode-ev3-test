@@ -4,7 +4,6 @@ function doABarrelRoll (_3: number) {
 }
 sensors.touch1.onEvent(ButtonEvent.Pressed, function () {
     music.playSoundEffect(sounds.mechanicalHorn1)
-    sensors.color2.pauseUntilColorDetected(ColorSensorColor.Red)
 })
 brick.setStatusLight(StatusLight.Orange)
 forever(function () {
